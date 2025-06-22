@@ -1,8 +1,7 @@
 #BG{
     height: 985px; 
-    width: 1600px;
+    width: 1355px;
     background-image: url(group-students-discussion-teacher-university-group-students-discussion-teacher-indoor-classroom-114139820.jpg);
-    background-position: bottom;
     margin: -10px -10px;
 }
 #sec{
@@ -11,7 +10,7 @@
 #BG1{
     background-color: rgb(0 0 0 / 63%);
     height: 985px; 
-    width: 1600px
+    width: 1355px
 }
 #head{
     font-size: 95px;
@@ -236,6 +235,7 @@
 #Section{
     display: flex;
     margin-top: -45px;
+    justify-content: center;
 }
 #head5{
     margin-left: 350px;
