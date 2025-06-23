@@ -1,7 +1,8 @@
 #BG{
-    height: 985px; 
-    width: 1354px;
+    height: 950px; 
+    width: 1600px;
     background-image: url(STBA.jpg);
+    background-position: bottom;
     margin: -10px -10px;
 }
 #sec{
@@ -9,14 +10,14 @@
 }
 #BG1{
     background-color: rgb(0 0 0 / 63%);
-    height: 985px; 
-    width: 1354px
+    height: 950px; 
+    width: 1600px
 }
 #head{
     font-size: 95px;
-    padding-top: 80px;
+    padding-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 230px;
+    padding-left: 330px;
     font-style: normal;
     letter-spacing: 3px;
     margin-bottom: -10px;
@@ -25,7 +26,7 @@
 }
 #head1{
     font-size: 95px;
-    padding-left: 420px;
+    padding-left: 520px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     letter-spacing: 3px;
@@ -36,7 +37,7 @@
 }
 #head2{
     font-size: 95px;
-    padding-left: 300px;
+    padding-left: 400px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 3px;
     margin-top: 30px;
@@ -61,7 +62,7 @@
     cursor: pointer;
 } 
 #admin{
-    margin-left: 990px;
+    margin-left: 1220px;
     padding-top: 30px;
     font-size: 20px;
     color: #ffffffac;
@@ -164,7 +165,7 @@
 }
 #book{
     background-color: rgba(0, 0, 255, 0.554);
-    margin-left: 500px;
+    margin-left: 600px;
     margin-top: 70px;
     font-size: 31px;
     width: 345px;
@@ -183,7 +184,7 @@
 }
 #content{
     margin-top: 135px;
-    margin-left: 130px;
+    margin-left: 230px;
     font-size: 18px;
     color: #ffffffc9;
     line-height: 35px;
@@ -194,9 +195,8 @@
     display: flex;
 }
 #head3{
-    margin-left: 490px;
-    margin-top: 70px;
-    margin-bottom: 50px;
+    margin-left: 610px;
+    padding-top: 10px;
     font-size: 35px;
     letter-spacing: 1px;
 }
@@ -204,12 +204,11 @@
     display: flex;
 }
 #img1{
-    margin-left: 60px;
+    margin-left: 160px;
 }
 #content1{
-    justify-content: center;
     margin-top: 135px;
-    margin-left: 50px;
+    margin-left: 160px;
     line-height: 30px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -235,27 +234,27 @@
 #Section{
     display: flex;
     margin-top: -45px;
-    justify-content: center;
+    margin-left: 150px;
 }
 #head5{
-    margin-left: 350px;
-    padding-top: 45px;
+    margin-left: 460px;
+    padding-top: 10px;
     font-size: 35px;
     letter-spacing: 1px;
 }
 #Sections{
     margin: 5px 5px;
-    width: 380px;
-    margin-left: 40px;
+    width: 394px;
+    margin-left: 160px;
 }
 #Sections1{
     margin: 5px 5px;
-    width: 380px;
+    width: 394px;
     margin-left: 50px;
 }
 #Sections2{
     margin: 5px 5px;
-    width: 380px;
+    width: 394px;
     margin-left: 50px;
 }   
 i{
