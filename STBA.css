@@ -1,19 +1,22 @@
-#BG{
-    height: 950px; 
+#BG {
+    height: 950px;
     width: 1600px;
     background-image: url(STBA.jpg);
     background-position: bottom;
     margin: -10px -10px;
 }
-#sec{
-     display: flex;
+
+#sec {
+    display: flex;
 }
-#BG1{
+
+#BG1 {
     background-color: rgb(0 0 0 / 63%);
-    height: 950px; 
+    height: 950px;
     width: 1600px
 }
-#head{
+
+#head {
     font-size: 95px;
     padding-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,7 +27,8 @@
     color: #ffffffeb;
     font-weight: bold;
 }
-#head1{
+
+#head1 {
     font-size: 95px;
     padding-left: 520px;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,7 +39,8 @@
     color: #ffffffeb;
     font-weight: bold;
 }
-#head2{
+
+#head2 {
     font-size: 95px;
     padding-left: 400px;
     font-family: Arial, Helvetica, sans-serif;
@@ -45,7 +50,8 @@
     color: #ffffffeb;
     font-weight: bold;
 }
-#teacher{
+
+#teacher {
     margin-left: 55px;
     margin-top: 30px;
     font-size: 20px;
@@ -53,117 +59,97 @@
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
-#student{
+
+#student {
     margin-left: 55px;
     margin-top: 30px;
     font-size: 20px;
     color: #ffffffac;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
-} 
-#admin{
+}
+
+#admin {
+    text-decoration: none;
     margin-left: 1220px;
-    padding-top: 30px;
+    margin-top: 30px;
     font-size: 20px;
     color: #ffffffac;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
-#option a{
+
+#option a {
     color: white;
     display: block;
     font-size: 15px;
     text-decoration: none;
     padding: 5px 5px;
 }
-#option1 a{
-    color: white;
+
+#option {
+    margin-left: 5px;
+    display: none;
+    box-shadow: 4px 6px rgb(0 0 0 / 25%);
+    border-radius: 6px;
+    position: absolute;
+    background-color: transparent;
+    min-width: 100px;
+    color: #ffffffac;
+}
+
+#option a {
+    color: #ffffffac;
+}
+
+#teacher:hover #option {
     display: block;
-    font-size: 15px;
-    text-decoration: none;
-    padding: 5px 5px;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 25%);
+    border-radius: 6px;
 }
-#option2 a{
-    color: white;
-    display: block;
-    font-size: 15px;
-    text-decoration: none;
-    padding: 5px 5px;
+
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
-#option{
-     margin-left: 5px;
-     display: none;
-     box-shadow: 4px 6px rgb(0 0 0 / 25%);
-     border-radius: 6px;
-     position: absolute;
-     background-color: transparent;
-     min-width: 100px;
-     color: #ffffffac;
-}
-#option1{
-     margin-left: 5px;
-     display: none;
-      box-shadow: 4px 6px rgb(0 0 0 / 25%);
-     border-radius: 6px;
-     position: absolute;
-     background-color: transparent;
-     min-width: 100px;
-}
-#option2{
-     margin-left: 5px;
-     display: none;
-     box-shadow: 4px 6px rgb(0 0 0 / 25%);
-     border-radius: 6px;
-     position: absolute;
-     background-color: transparent;
-     min-width: 100px;
-}
-#option a{
-    color: #ffffffac;
-}
-#option1 a{
-    color: #ffffffac;
-}
-#option2 a{
-    color: #ffffffac;
-}
+
 #admin:hover #option {
     display: block;
     box-shadow: 0px 4px 5px rgb(0 0 0 / 25%);
     border-radius: 6px;
 }
-#teacher:hover #option1 {
+
+#student:hover #option {
     display: block;
-     box-shadow: 0px 4px 5px rgb(0 0 0 / 25%);
-     border-radius: 6px;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 25%);
+    border-radius: 6px;
 }
-#student:hover #option2 {
-    display: block;
-     box-shadow: 0px 4px 5px rgb(0 0 0 / 25%);
-     border-radius: 6px;
-}
-#option a:hover{
+
+#option a:hover {
     background-color: rgb(0 0 0 / 25%);
     color: #ffffff;
 }
-#option1 a:hover{
-    background-color: rgb(0 0 0 / 25%);
+
+#teacher:hover {
     color: #ffffff;
 }
-#option2 a:hover{
-    background-color: rgb(0 0 0 / 25%);
+
+#student:hover {
     color: #ffffff;
 }
-#teacher:hover{
+
+#admin:hover {
     color: #ffffff;
 }
-#student:hover{
-    color: #ffffff;
-}
-#admin:hover{
-    color: #ffffff;
-}
-#book{
+
+#book {
     background-color: rgba(0, 0, 255, 0.554);
     margin-left: 600px;
     margin-top: 70px;
@@ -174,15 +160,18 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
-}               
-#book a{
+}
+
+#book a {
     text-decoration: none;
     color: white;
-}   
-#book:hover{
+}
+
+#book:hover {
     background-color: blue;
 }
-#content{
+
+#content {
     margin-top: 135px;
     margin-left: 230px;
     font-size: 18px;
@@ -191,152 +180,177 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-#contents{
+
+#contents {
     display: flex;
 }
-#head3{
+
+#head3 {
     margin-left: 610px;
     padding-top: 10px;
     font-size: 35px;
     letter-spacing: 1px;
 }
-#contents1{
+
+#contents1 {
     display: flex;
 }
-#img1{
+
+#img1 {
     margin-left: 160px;
 }
-#content1{
+
+#content1 {
     margin-top: 135px;
     margin-left: 160px;
     line-height: 30px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#register{
+
+#register {
     margin-top: 60px;
     background-color: blue;
     align-content: space-around;
     text-align: center;
     width: 525px;
-    height: 46px;   
+    height: 46px;
     letter-spacing: 1px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
-#register a{
+
+#register a {
     text-decoration: none;
     color: #ffffff;
 }
-#BG3{
+
+#BG3 {
     height: 485px;
-    width: 1345px;}
-#Section{
-    display: flex;
+    width: 1345px;
+}
+
+#Section {
+    display: inline-flex;
     margin-top: -45px;
     margin-left: 150px;
+    animation: Slide 0.6s ease-in-out
 }
-#head5{
+
+#head5 {
     margin-left: 460px;
     padding-top: 10px;
     font-size: 35px;
     letter-spacing: 1px;
 }
-#Sections{
+
+#Sections {
     margin: 5px 5px;
     width: 394px;
-    margin-left: 160px;
 }
-#Sections1{
+
+#Sections1 {
     margin: 5px 5px;
     width: 394px;
     margin-left: 50px;
 }
-#Sections2{
+
+#Sections2 {
     margin: 5px 5px;
     width: 394px;
     margin-left: 50px;
-}   
-i{
+}
+
+i {
     margin-left: 145px;
     font-size: 40px;
     color: #0056b3;
     margin-bottom: 15px;
-    transition: transform 0.3s ease,color 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
-#sec1:hover i{
+
+#sec1:hover i {
     color: #ffffff;
     transform: scale(1.2);
 }
-#sec1{
+
+#sec1 {
     margin-top: 30px;
     border: 1px solid blue;
     font-size: 30px;
     padding: 37px 16px;
 }
-h5{
+
+h5 {
     margin: 10px 0px;
     text-align: center;
 }
-#con1{
+
+#con1 {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 25px;
     font-size: 19px;
     color: black;
 }
-#sec1:hover{
+
+#sec1:hover {
     background-color: blue;
 }
-#sec1:hover h5{
+
+#sec1:hover h5 {
     color: #ffffff;
 }
+
 #backToTopBtn {
-  position: fixed;
-  bottom: 40px;
-  right: 30px;
-  z-index: 99;
-  background-color: blue;
-  color: white;
-  border: none;
-  padding: 12px 16px;
-  border-radius: 50%;
-  font-size: 18px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  transition: all 0.3s ease;
-  display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 99;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    display: none;
 }
+
 #backToTopBtn:hover {
-  background-color: #003f80;
-  transform: scale(1.1);
+    background-color: #003f80;
+    transform: scale(1.1);
 }
+
 .footer {
-  background-color: #1e293b; /* Slate Blue */
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-  font-size: 14px;
-  margin-top: 180px;
-  width: 1580px;
+    background-color: #1e293b;
+    /* Slate Blue */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 180px;
+    width: 1580px;
 }
 
 .footer-container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .footer-links {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 .footer-links a {
-  color: #94a3b8;
-  margin: 0 10px;
-  text-decoration: none;
-  font-weight: 500;
+    color: #94a3b8;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .footer-links a:hover {
-  color: white;
+    color: white;
 }
